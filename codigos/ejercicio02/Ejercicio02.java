@@ -45,7 +45,7 @@ public class Ejercicio02 {
 		} while (eleccionUsuario != 0);
 	}
 
-	private static void listarAlumnos(ArrayList<Alumno> listaAlumnos) {
+	public static void listarAlumnos(ArrayList<Alumno> listaAlumnos) { //Método que muestra todos los alumnos
 		System.out.println("Lista de alumnos.");
 		for (Alumno alumno : listaAlumnos) {
 			System.out.println(alumno.toString());
@@ -53,7 +53,7 @@ public class Ejercicio02 {
 		System.out.println("-".repeat(150));
 	}
 
-	private static void aniadirAlumno(ArrayList<Alumno> listaAlumnos) {
+	public static void aniadirAlumno(ArrayList<Alumno> listaAlumnos) { //Método que añade un alumno si no existe en el ArrayList
 		Alumno alumnoAniadir = pedirDatos();
 		int contador = 0;
 		for (Alumno alumno : listaAlumnos) {
@@ -69,7 +69,7 @@ public class Ejercicio02 {
 		System.out.println("-".repeat(150));
 	}
 
-	private static void mostrarAlumno(ArrayList<Alumno> listaAlumnos) {
+	public static void mostrarAlumno(ArrayList<Alumno> listaAlumnos) { //Método que muestra un alumno si existe en el ArrayList
 		Alumno alumnoMostrar = pedirDatos();
 		int contador = 0;
 		for (Alumno alumno : listaAlumnos) {
@@ -87,7 +87,7 @@ public class Ejercicio02 {
 		System.out.println("-".repeat(150));
 	}
 
-	private static void eliminarAlumno(ArrayList<Alumno> listaAlumnos) {
+	public static void eliminarAlumno(ArrayList<Alumno> listaAlumnos) { //Método que elimina un alumno si existe en el ArrayList
 		Alumno alumnoEliminar = pedirDatos();
 		int contador = 0;
 		for (Alumno alumno : listaAlumnos) {
@@ -105,7 +105,7 @@ public class Ejercicio02 {
 		System.out.println("-".repeat(150));
 	}
 
-	public static Alumno pedirDatos() {
+	public static Alumno pedirDatos() { //Método que pide los datos y crea un objeto Alumno
 		System.out.print("Indica el NIF/NIE: ");
 		String dni = scanner.nextLine();
 		System.out.print("Indica el nombre: ");
@@ -124,7 +124,7 @@ public class Ejercicio02 {
 		return alumno;
 	}
 
-	public static void menu() {
+	public static void menu() { // Método que muestra el menú del programa de gestión de alumnos.
 		System.out.println("GESTIÓN DE ALUMNOS");
 		System.out.println("-".repeat(150));
 		System.out.println("[1] Listar alumnos.\n" + "[2] Añadir alumno.\n" + "[3] Eliminar alumno.\n"
