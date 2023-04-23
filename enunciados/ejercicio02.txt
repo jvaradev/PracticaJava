@@ -1,0 +1,8 @@
+Crea una clase Alumno para almacenar su dni, nombre, apellidos, ciclo formativo, curso y fecha de nacimiento. Crea los constructores que creas y sobrescribe el método toString.
+Crea un programa que permita listar alumnos (muestra todos los alumnos).
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C: 1. Listar alumnos : Muestra todos los alumnos.
+		2. Añadir alumno : Pide todos los datos y lo añade. Si el alumno ya está en la lista muestra un mensaje y no lo añade.
+		3. Eliminar alumno : Pide todos los datos y lo elimina. Si el alumno no está en la lista miestra un mensaje.
+		4. Mostra alumno : Pide todos los dato y muestra solo a ese alumno. Si el alumno no está en la lista muestra un mensaje.
+		0. Salir : Sale del programa.
+Después de cada acción se muestra de nuevo el menú hasta que se decida salir.
