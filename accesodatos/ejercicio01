@@ -1,0 +1,2 @@
+Crea una clase customer con los siguientes atributos: customerId,firstName, lastName, phoneNumber, active y createDate. Con un único constructor con todos los atributos.
+En la clase main acceder a los datos de customer y meterlos en un array de customer, que se sacará por pantalla. getters y metodo toString.
