@@ -1,0 +1,1 @@
+Crea una clase que reciba una sentencia sql pedida al usuario por pantalla. Si es una sentencia select sale por pantalla los resultados y si no saldrá por pantalla "Se ha realizado la sentencia" Preguntará sentencias hasta que el usuario lo deje en blanco
